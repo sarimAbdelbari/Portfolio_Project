@@ -15,11 +15,11 @@ export function HeroSection() {
           transition={{ duration: 0.5 }}
           className="space-y-4"
         >
-          <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
+          <h1 className="text-4xl md:text-6xl font-bold bg-clip-text bg-gradient-to-r dark:text-[#fff] text-[#272727]  from-primary to-primary/60">
             Full Stack Developer
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Hey there! I&apos;m Kerroucha Abdelbari Sarim, a passionate Full Stack Developer
+            Hey there! I`&apos;`m Kerroucha Abdelbari Sarim, a passionate Full Stack Developer
             specializing in modern web technologies and the MERN stack.
           </p>
         </motion.div>
@@ -30,7 +30,7 @@ export function HeroSection() {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="flex flex-col sm:flex-row gap-4"
         >
-          <Button size="lg" className="group" asChild>
+          <Button size="lg" className="group text-white" asChild>
             <a href="#projects">
               View My Work
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
